@@ -1,0 +1,74 @@
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	font-family: 'Playpen Sans', cursive;
+}
+
+.container {
+	max-width: 60%;
+	background-color: lightgray;
+	padding: 32px 24px;
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+	border-radius: 10px;
+	margin-left: 20%;
+	text-align: center;
+}
+
+.addItemForm input {
+	border-radius: 8px;
+	padding: 5px;
+	margin: 5px;
+	border-color: rebeccapurple;
+}
+
+#btn {
+	border-radius: 8px;
+	margin: 5px;
+	border-color: rebeccapurple;
+	background-color: #4d4d4d;
+	color: #fff;
+	width: 35%;
+	height: 25%;
+	font-size: 20px;
+	align-items: center;
+	font-weight: 600;
+	padding: 0 1.2rem;
+	box-shadow: 0 .5rem 1rem rgba(143, 142, 142, 0.15) !important;
+}
+
+#btn:hover {
+	background: #2b2a2a;
+}
+
+h1 {
+	color: mediumpurple;
+}
+
+table {
+	width: 70%;
+	margin: 30px;
+	margin-left: 15%;
+	border: 1px solid #CCCCCC;
+	text-align: center;
+	background-color: #61c0bf;
+	color: #7D4DD3;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+button {
+	background: rebeccapurple;
+	border: none;
+	color: white;
+	border-radius: 8px;
+	padding: 7px;
+}
+
+td {
+	border-bottom: 1px solid #ddd;
+}
